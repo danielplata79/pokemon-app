@@ -1,6 +1,8 @@
 const pokeflow = require("pokemon");
 const figlet   = require("figlet");
 const app      = require("./main");
+const imgConverter = require("image-to-ascii");
+const pokeImg  = require("pokemon-images");
 
 module.exports = {
 	// Header Title 
@@ -24,5 +26,6 @@ module.exports = {
 		module.exports.consoleClear();
 		return console.log("Felicidades! : Tu nuevo Pokemon es: " + pokeflow.getName(myAsking));
 	}
-
 }; // Module Export - END
+
+

@@ -12,7 +12,10 @@
   "dependencies": {
     "ascii-art": "^2.8.5",
     "figlet": "^1.5.2",
+    "gm": "^1.23.1",
+    "image-to-ascii": "^3.0.13",
     "pokemon": "^2.3.0",
+    "pokemon-images": "^2.0.1",
     "prompt-sync": "^4.2.0"
   }
 }

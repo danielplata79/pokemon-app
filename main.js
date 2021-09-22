@@ -3,6 +3,9 @@ const pokeflow = require("pokemon");
 const prompt = require("prompt-sync")();
 const figlet = require("figlet");
 const libs   = require("./libs");
+const imgConverter = require("image-to-ascii");
+const pokeImg  = require("pokemon-images");
+
 
 var asking;
 // Menu 
@@ -63,3 +66,10 @@ module.exports = {
 // App start
 libs.showTitle();
 module.exports.startApp();
+
+var squirtleImg = pokeImg.getSprite("squirtle"); 
+console.log(squirtleImg);
+
+imgConverter("./7.png", (err, converted) => {
+	console.log(err || converted);
+}); 
