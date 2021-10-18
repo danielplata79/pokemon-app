@@ -5,3 +5,10 @@
 <p align="center">
   <img src="desc.png" height="100%" width="100%">
  </p>
+<hr>
+<h2>Dependencies</h2>
+<p>For the correct IMG display on your console, you need to install two dependencies that will allow your console to display ASCII Art Images that this app generates, this is required for both system's Windows 10 and Linux</p>
+<ul>
+  <li><a href="http://www.graphicsmagick.org/INSTALL-windows.html">Graphics Magick</a></li>
+  <li><a href="https://imagemagick.org/script/download.php">Image Magick</a></li>
+</ul>
