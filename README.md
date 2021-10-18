@@ -3,5 +3,5 @@
 <p>This App its an personal app test that i used to learn Node package usability.</p>
 <hr>
 <p align="center">
-  <img src="desc.png" height="50%" width="50%">
+  <img src="desc.png" height="100%" width="100%">
  </p>
