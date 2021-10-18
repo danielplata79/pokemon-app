@@ -43,8 +43,7 @@ module.exports = {
 
 	threePrincipals : function(pokemon) {
 		const pokeName = pokeflow.getName(pokemon);
-		const pokeToLower= pokeName.toLowerCase();
-		console.log("aqui sif unciona : " + pokeToLower);
+		const pokeToLower= pokeName.toLowerCase(); 
 		const pokeSprite = pokeImg.getSprite(pokeToLower); 
 		imgConverter(pokeSprite, {
 			colored: true,
